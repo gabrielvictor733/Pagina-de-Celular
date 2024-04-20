@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BreFone | Home</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <script src="main.js" defer></script>
+  </head>
+  <body>
+    <!--  Header  -->
+    <header class="header">
+      <!--  Logo  -->
+      <img
+        class="logo"
+        src="https://cdn.discordapp.com/attachments/1217129997626642483/1230640411853328394/Frame_2_1.png?ex=66340e32&is=66219932&hm=ebf78382d7072ed0d939e306ff46f1c510b8ee2c675c21b44f67f9bd2e61ced5&"
+        alt="Brefone Logo"
+      />
+
+      <!--  Navbar  -->
+      <div class="navbar__container">
+        <!--  Opções do Navbar  -->
+        <a class="navbar__link" href="#">Home</a>
+        <a class="navbar__link" href="#">Promoções</a>
+        <a class="navbar__link" href="#">Contato</a>
+        <!--  Carrinho  -->
+        <div class="carrinho__container">
+          <img
+            class="carrinho__icone"
+            src="https://cdn.discordapp.com/attachments/1217129997626642483/1230634289092366426/Frame_1.png?ex=6634087e&is=6621937e&hm=ab2634c0097578b6a557864a3ca02d7e758ae797e48bd0241a24675c6e5b3b9d&"
+            alt="Carrinho"
+          />
+          <!-- Bolinha vermelha -->
+          <span class="dot"></span>
+        </div>
+      </div>
+    </header>
+
+
+
+    <!--  Main  -->
+    <main>
+      <!--  Container do CTA  -->
+      <section class="main__container">
+        <!-- Lado esquerdo -->
+        <img
+          class="iphone__image"
+          src="https://cdn.discordapp.com/attachments/1217129997626642483/1230642868742258860/Design_sem_nome_2.png?ex=6634107c&is=66219b7c&hm=ecdab1f5c7ea3c8c68da6216c03df11ffa535ff3b13ae0c4486dd01243072479&"
+          alt="Iphone 2"
+        />
+        <!-- Lado direito -->
+        <div class="info__container">
+          <div>
+            <h2 class="titulo__info">Iphone 2 Plus</h2>
+            <span id="price" class="preco__info">R$600,00</span>
+            <p class="desc__info">
+              Experimente a perfeição da tecnologia móvel com o novo Iphone 2.
+              Design elegante, desempenho poderoso e recursos avançados se unem
+              para criar uma experiência única. Capture momentos incríveis,
+              mantenha-se conectado e desfrute do futuro agora com o seu novo
+              celular!
+            </p>
+          </div>
+
+          <!-- Botões de compra e adicionar ao carrinho -->
+          <div class="acoes__container">
+            <a href="#" class="botao" id="buy">Comprar</a>
+            <a href="#" class="botao" id="addToCart">Adicionar ao carrinho</a>
+          </div>
+
+          <!-- Selects de memória e quantidade -->
+          <div class="opcoes__container">
+            <select class="opcoes__select">
+              <option selected value="1">4GB</option>
+              <option value="2">8GB</option>
+              <option value="3">16GB</option>
+              <option value="4">32GB</option>
+              <option value="5">64GB</option>
+            </select>
+            <select class="opcoes__select">
+              <option selected value="1">1 unidade</option>
+              <option value="2">2 unidades</option>
+              <option value="3">3 unidades</option>
+              <option value="4">4 unidades</option>
+              <option value="5">5 unidades</option>
+            </select>
+          </div>
+          <!-- Fim dos Selects -->
+
+          <div class="total__container">
+            <span id="totalPrice">Preço total:</span>
+          </div>
+        </div>
+      </section>
+      <!-- Fim do container de compra -->
+
+      <!-- Video de Review -->
+      <h2 class="review__titulo">Review do aparelho</h2>
+      <section class="main__container">
+        
+        <iframe
+          width="853"
+          height="480"
+          src="https://www.youtube.com/embed/gaNEHMjjPwY"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </section>
+    </main>
+    <!-- Fim do Main -->
+
+    <footer>
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <h4>Sobre Nós</h4>
+                        <p>Somos uma loja online dedicada a oferecer uma ampla seleção de telefones de alta qualidade a preços acessíveis.</p>
+                    </div>
+                    <div class="col-md-4">
+                        <h4>Informações de Contato</h4>
+                        <p>Instagram: BreFoneLoja</p>
+                        <p>Email: Brefone.Loja@gmail.com</p>
+                    </div>
+                    <div class="col-md-4">
+                        <h4>Links Úteis</h4>
+                        <ul>
+                            <li><a href="#">Termos e Condições</a></li>
+                            <li><a href="#">Política de Privacidade</a></li>
+                            <li><a href="#">FAQ</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <hr>
+                        <p class="text-center">© 2024 BreFone. Todos os direitos reservados.</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        
+    </footer>
+  </body>
+</html>
